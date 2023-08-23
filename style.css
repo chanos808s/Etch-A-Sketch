@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #065a52;
+}
+.board{
+    height: 500px;
+    width: 500px;
+    display:grid;
+    background-color: grey;
+    border: 3px solid black;
+}
+
+.title{
+    text-align: center;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.input{
+   display: flex;
+   gap: 10px;
+}
+.white,
+.black,
+.clear,
+.rainbow{
+    border-radius: 15px;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.rainbow{
+    background-color: aqua;
+    color: black;
+}
+.size,
+input{
+    border-radius: 15px;
+    background-color: beige;
+}
+h1{
+    border: 3px solid red;
+    color: red;
+}

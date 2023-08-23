@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-A-Sketch</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title"><h1>Etch-A-Sketch</h1></div>
+            <div class="content">
+                <div class="board"></div>
+                <div class="buttons">
+                    <button onclick="multiColor('black')" class="black" >Black</button>
+                    <button onclick="multiColor('white')" class="white">White</button>
+                    <button onclick="multiColor('random')" class="rainbow">Rainbow</button>
+                    <button onclick="clearGrid()" class="clear">Clear</button>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Hello" value="Set size:1 - 16" onchange="gridMaker(this.value)">
+                    <button class="size">Set Size</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
+
